@@ -13,7 +13,7 @@ Implementation and Knowledge Graphs of the ICCV 2023 workshop paper "nuScenes Kn
 ## How to use
 **nSKG** represents the KG created on the basis of the nuScenes ontologies nuScenes_agent_onto.ttl and nuScenes_map_onto.ttl and the nuScenes annotation dataset. It can be used for applications where relational information between entities are important. 
 
-**nSTP** represents the extended version of nSKG, where agents are represented in local coordinate systems to enforce shift- and rotation-invariance. It also includes semantic relationships between agents, e.g. whether agents are on neighboring lanes, the same lane or might intersect. The data is provided in PyTorch Geometric format and directly be used to train graph neural network for trajectory prediction.
+**nSTP** represents the extended version of nSKG, where agents are represented in local coordinate systems to enforce shift- and rotation-invariance. It also includes semantic relationships between agents, e.g. whether agents are on neighboring lanes, the same lane or might intersect. This is done based on the semantic scene graph describe in [(Towards Traffic Scene Description: The Semantic Scene Graph)](https://arxiv.org/abs/2111.10196)The data is provided in PyTorch Geometric format and directly be used to train graph neural network for trajectory prediction.
 
 To create a modified version of the nSKG, e.g. based on a modified ontology, you can use the `Knowledge_Graph_Generation` code. Please use the following stept
 - TBD
