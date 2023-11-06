@@ -11,7 +11,7 @@ Ontologies and Knowledge Graphs of the ICCV 2023 workshop paper "nuScenes Knowle
 The content is available at [Zenodo](https://zenodo.org/records/10074393)
 
 ## How to use
-**nSKG** represents the KG created on the basis of the nuScenes ontologies nuScenes_agent_onto.ttl and nuScenes_map_onto.ttl and materializing the [nuScenes annotation dataset](https://www.nuscenes.org/nuscenes#data-annotation). It can be used for applications where relational information between entities are important. The ontologies are in [Turtle](https://www.w3.org/TR/turtle/) format and can be viewed by ontology editors such as [Protoge](https://protege.standord.edu/) 
+**nSKG** represents the KG created on the basis of the nuScenes ontologies nuScenes_agent_onto.ttl and nuScenes_map_onto.ttl and materializing the [nuScenes annotation dataset](https://www.nuscenes.org/nuscenes#data-annotation). It can be used for applications where relational information between entities are important. The ontologies are in [Turtle](https://www.w3.org/TR/turtle/) format and can be viewed by ontology editors such as [Protege](https://protege.standord.edu/) 
 
 **nSTP** represents the extended version of nSKG, where agents are represented in local coordinate systems to enforce shift- and rotation-invariance. It also includes semantic relationships between agents, e.g. whether agents are on neighboring lanes, the same lane or might intersect. This is done based on the semantic scene graph describe in [(Towards Traffic Scene Description: The Semantic Scene Graph)](https://arxiv.org/abs/2111.10196). The data is provided in PyTorch Geometric format and directly be used to train graph neural network for trajectory prediction.
 
