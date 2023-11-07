@@ -1,4 +1,4 @@
-# nuScenes_Knowledge_Graph
+# nuScenes_Knowledge_Graph  
 Ontologies and Knowledge Graphs of the ICCV 2023 workshop paper "nuScenes Knowledge Graph - A comprehensive semantic representation of traffic scenes for trajectory prediction"
 
 ## [Content](https://zenodo.org/records/10074393)
