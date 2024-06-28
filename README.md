@@ -23,6 +23,12 @@ The content is available at [Zenodo](https://zenodo.org/records/10074393)
 <img src="Images/Map-and-agent-map3.png" width="300px">
 </p>
 
+## Publications using the nuScenes Knowledge Graph
+- Sun, Z., Wang, Z., Halilaj, L., & Luettin, J. (2024). SemanticFormer: Holistic and Semantic Traffic Scene Representation for Trajectory Prediction using Knowledge Graphs. To appear in IEEE Robotics and Automation Letters. Preprint: [ArXiv, abs/2404.19379](https://arxiv.org/abs/2404.19379).
+- Wang, Z., Sun, Z., Luettin, J., & Halilaj, L. (2024). SocialFormer: Social Interaction Modeling with Edge-enhanced Heterogeneous Graph Transformers for Trajectory Prediction. [ArXiv, abs/2405.03809](https://arxiv.org/abs/2405.03809).
+- (please let us know if you like us to add your article here)
+
+  
 ## Acknowledgements
 Special thanks to Motional for the permission to distribute this modified version of the nuScenes dataset.
 
